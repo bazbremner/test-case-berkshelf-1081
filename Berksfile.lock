@@ -1,0 +1,13 @@
+DEPENDENCIES
+  one
+    git: git://github.com/bazbremner/test-case-simple-chef-repo.git
+    revision: 3be68bb22a78dc7af73ff7b12a714e4feede715d
+    rel: cookbooks/one
+  two
+    git: git://github.com/bazbremner/test-case-simple-chef-repo.git
+    revision: 3be68bb22a78dc7af73ff7b12a714e4feede715d
+    rel: cookbooks/two
+
+GRAPH
+  one (1.0.0)
+  two (1.2.0)
